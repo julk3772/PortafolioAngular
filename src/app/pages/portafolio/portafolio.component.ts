@@ -8,7 +8,7 @@ import { ProductosService } from 'src/app/services/productos.service';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor( public productoService: ProductosService) { }
+  constructor( public productosService: ProductosService) { }
 
   ngOnInit(): void {
   }
